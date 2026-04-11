@@ -17,7 +17,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy to Cloudflare workers
+    name: Deploy to Cloudflare pages
 
     steps:
       - name: Checkout source code
